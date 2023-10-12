@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CallDoubleNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/CallDoubleNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/FirstDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloNameDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/HelloNameDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShowTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/ShowTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolveEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/SolveEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Harruu0708"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Harruu0708&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -47,7 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
