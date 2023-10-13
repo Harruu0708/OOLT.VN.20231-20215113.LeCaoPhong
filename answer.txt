@@ -1,3 +1,10 @@
 8.1
 -What happens when users choose "Cancel"
 Screen displays :"You've chosen: No"
+-How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do”
+and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help).
+Khai báo xâu options có 2 phần tử "Yes" và "No"
+String[] options = new String[]{"Yes", "No"};
+        int option = JOptionPane.showOptionDialog(null, "Do you want to change to the first class ticket?", "Select an option",
+                JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
+                null, options, options[0]);
