@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda00cc0-de64-4390-b20b-e06856ded94d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AddTwoMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/AddTwoMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ChoosingOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/ChoosingOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DayofMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/DayofMonth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InputFromKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/InputFromKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SortCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/SortCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TriangleStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab01/TriangleStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/digital__video__disc",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
