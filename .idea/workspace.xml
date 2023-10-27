@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CallDoubleNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/CallDoubleNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/FirstDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloNameDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/HelloNameDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/ShowTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolveEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/SolveEquation.java" afterDir="false" />
-    </list>
+    <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "feature/initial-aims",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
