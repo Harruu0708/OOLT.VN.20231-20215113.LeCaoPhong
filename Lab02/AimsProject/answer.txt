@@ -1,0 +1,25 @@
+Name: Le Cao Phong
+Student ID: 20215113
+10. If you create a constructor method to build a DVD by title
+then create a constructor method to build a DVD by category. Does JAVA allow you to do this?
+-No, In Java, we cannot have two constructors with the same parameter types.
+This means that we cannot have one constructor that takes a title and another constructor
+that takes a category with the same data type (e.g., String).
+
+14. Try to add a method addDigitalVideoDisc which allows to pass an arbitrary
+number of arguments for dvd. Compared to an array parameter. What do you prefer in this case?
+- My preference is to utilize an array parameter because it offers better clarity and convenience.
+I don't need to list all DVDs individually; instead, I can simply pass an array of DVD objects.
+
+15.
+Is JAVA a Pass by Value or a Pass by Reference programming language?
+-In Java, method parameters are Pass by Value, meaning we pass a copy of the variable's value, not a reference to the original variable.
+This means that when we modify the parameter's value inside the method, it doesn't affect the value of the original variable passed into the method.
+
+After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+-Due to the swap method, only the values of the two parameters are swapped, not the objects themselves.
+The objects retain their original values.
+
+After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+- The changeTitle method modifies the title of
+the object provided as a parameter by invoking setTitle() method.
