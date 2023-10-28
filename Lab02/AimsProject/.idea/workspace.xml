@@ -7,7 +7,6 @@
     <list default="true" id="c7aa9d86-9cd5-4bc7-a82b-eeabfde59058" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/DigitalVideoDisc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +36,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "topic/use-case-diagram",
-    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab02/AimsProject/Requirement",
+    "git-widget-placeholder": "topic/class-diagram",
+    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab02/AimsProject/ReadingAssignment",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LE CAO PHONG\IdeaProjects\OOLT.VN.20231-20215113.LeCaoPhong\Lab02\AimsProject\ReadingAssignment" />
+      <recent name="C:\Users\LE CAO PHONG\IdeaProjects\OOLT.VN.20231-20215113.LeCaoPhong\Lab02\AimsProject\Design" />
       <recent name="C:\Users\LE CAO PHONG\IdeaProjects\OOLT.VN.20231-20215113.LeCaoPhong\Lab02\AimsProject\Requirement" />
     </key>
   </component>
