@@ -5,25 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7aa9d86-9cd5-4bc7-a82b-eeabfde59058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classes/DigitalVideoDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/DigitalVideoDisc1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/DigitalVideoDisc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XM6scQaUyrRErrU2pNGI2jo597" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -34,7 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Merging master"
+    "git-widget-placeholder": "topic/passing-parameters"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

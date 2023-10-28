@@ -33,4 +33,24 @@ public class Cart {
         }
         return total;
     }
+    // public void addDigitalVideoDisc(DigitalVideoDisc dvdList){
+    //     for (int i = 0 ; i < dvdList.length ; i++){
+    //         this.addDigitalVideoDisc(dvdList[i]);
+    //     }
+    // }
+    public void addDigitalVideoDisc(DigitalVideoDisc[] list){
+        for (int i = 0 ; i < list.length ; i++){
+            this.addDigitalVideoDisc(list[i]);
+        }
+    }
+    public void addDigitalVideoDisc(DigitalVideoDisc dvd1,DigitalVideoDisc dvd2){
+        this.addDigitalVideoDisc(dvd1);
+        this.addDigitalVideoDisc(dvd2);
+    }
+
+    public int getQuatity (){
+        return this.qtyOrdered;
+    }
+
+
 }
