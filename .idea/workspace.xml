@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/AimsProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/AimsProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02/AimsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/AimsProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/initial-aims&quot;,
-
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
