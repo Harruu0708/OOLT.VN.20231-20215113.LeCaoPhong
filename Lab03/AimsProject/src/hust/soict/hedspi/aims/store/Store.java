@@ -1,39 +1,60 @@
 package hust.soict.hedspi.aims.store;
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import java.util.ArrayList;
+import hust.soict.hedspi.aims.media.Media;
+
 public class Store {
     public static final int MAX_NUMBERS_DVD = 100;
-    private DigitalVideoDisc itemsInStore[] = new DigitalVideoDisc[MAX_NUMBERS_DVD];
-    private int qtyOrdered = 0;
-
-    public int getQtyOrdered() {
-        return qtyOrdered;
-    }
-
-    public void setQtyOrdered(int n) {
-        qtyOrdered += n ;
-    }
-
-    public void addDVD(DigitalVideoDisc disc) {
-        if(this.getQtyOrdered() != 100) {
-            itemsInStore[this.getQtyOrdered()] = disc;
-            setQtyOrdered(1);
-            System.out.println("The disc has been added in the hust.soict.dsai.aims.store.Store");
+    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
+    // 	Add Media to Store
+    public void addMedia(Media m) {
+        int size = itemsInStore.size();
+        if(size != 100) {
+            itemsInStore.add(m);
+            System.out.println("The media has been added");
         }
         else {
-            System.out.println("The hust.soict.dsai.aims.store.Store is almost full");
+            System.out.println("The store is almost full");
+        }
+    }
+    //	Remove Media to Store
+    public void removeMedia(Media m) {
+        for(Media media: itemsInStore) {
+            if(media.getTitle() == m.getTitle()) {
+                itemsInStore.remove(m);
+                System.out.println("The disc has been removed");
+            }
         }
     }
 
-    public void removeDVD(DigitalVideoDisc disc) {
-        for(int i = 0; i < qtyOrdered; i++) {
-            if(itemsInStore[i].getTitle() == disc.getTitle()) {
-                for(int j = i; j < qtyOrdered; j++) {
-                    itemsInStore[j] = itemsInStore[j + 1];
-                }
-                i--;
-                setQtyOrdered(-1);
-                System.out.println("The disc has been removed in the hust.soict.dsai.aims.store.Store");
+    public boolean search(int id) {
+        for(Media m: itemsInStore) {
+            if(m.getId() == id) {
+                return true;
             }
         }
+        return false;
+    }
+    // Search by Title
+    public boolean search(String title) {
+        for(Media m: itemsInStore) {
+            if(m.getTitle() == title) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public void printStore() {
+        System.out.println("***********************STORE***********************");
+        int i = 1;
+        for(Media m: itemsInStore) {
+            System.out.println((i) + ".DVD - " + m.getTitle() + " - " +
+                    m.getCategory() + " - " +
+                    m.getTitle() + " - " +
+//					m.getDirector() + " - " +
+//					m.getLength() + " : " +
+                    m.getCost());
+            i++;
+        }
+        System.out.println("***************************************************");
     }
 }
