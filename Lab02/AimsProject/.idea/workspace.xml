@@ -36,8 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "topic/class-diagram",
-    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab02/AimsProject/ReadingAssignment",
+    "git-widget-placeholder": "testlab03",
+    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
@@ -50,6 +50,13 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7aa9d86-9cd5-4bc7-a82b-eeabfde59058" name="Changes" comment="" />
+      <created>1700631337379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700631337379</updated>
+    </task>
     <servers />
   </component>
 </project>
