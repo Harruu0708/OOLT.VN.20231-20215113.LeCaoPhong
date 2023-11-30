@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/AimsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/AimsProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "testlab03",
+    "git-widget-placeholder": "testlab04",
     "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab03/AimsProject",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
