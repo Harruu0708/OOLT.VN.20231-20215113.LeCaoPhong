@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 public class Book extends Media {
     private List<String> authors = new ArrayList<String>();
-    public Book() {
+    public Book(String title, String category, float cost) {
         // TODO Auto-generated constructor stub
-        super();
+        super(title, category, cost);
     }
     public List<String> getAuthors() {
         return authors;
@@ -40,19 +40,4 @@ public class Book extends Media {
         }
     }
 
-    @Override
-    public void setArtist(String artist) {
-        // TODO Auto-generated method stub
-
-    }
-    @Override
-    public String getArtist() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-    @Override
-    public void setLength(int nextInt) {
-        // TODO Auto-generated method stub
-
-    }
 }
