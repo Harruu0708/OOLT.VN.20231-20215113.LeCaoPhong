@@ -2,12 +2,13 @@ package hust.soict.hedspi.aims.media;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-public class CompactDisc extends Disc implements Playable{
+public class CompactDisc extends Disc {
     String artist;
     List<Track> tracks = new ArrayList<Track>();
-    public CompactDisc() {
-        // TODO Auto-generated constructor stub
-        super();
+    public CompactDisc(String title, String category, float cost, int length, String director, String artist) {
+        // TODO Auto-generated method stub
+        super(title, category, director, length, cost);
+        this.artist = artist;
     }
     public String getArtist() {
         return artist;
@@ -52,37 +53,15 @@ public class CompactDisc extends Disc implements Playable{
         }
         return total_length;
     }
-    @Override
-    public void play() {
-        Scanner s = new Scanner(System.in);
+    public String play() {
         // TODO Auto-generated method stub
-        if(this.getLength()<=0) {
-            System.out.println("ERROR: CDlength is 0");
-            s.close();
-            return;
-        }
-        System.out.println("List Track: ");
-        int i = 1;
-        for(Track t: tracks) {
-            System.out.println(i + t.getTitle());
-            i++;
-        }
-        System.out.println();
-        System.out.print("Choose the Track: ");
-        int k = s.nextInt();
-        if(k < (i-1)) {
-            System.out.println("Playing CD: "+tracks.get(k-1).getTitle());
-            System.out.println("CD length: "+tracks.get(k-1).getLength());
-            s.close();
-            return;
-        }
-        else {
-            System.out.println("Does not exist. Please re-enter");
-            k = s.nextInt();
-        }
-        System.out.println("Playing CD: "+tracks.get(k-1).getTitle());
-        System.out.println("CD length: "+tracks.get(k-1).getLength());
-        s.close();
+        return printAllTracks();
     }
-
+    public String printAllTracks() {
+        String s = "";
+        for (Track track : tracks) {
+            s += track.getTitle() + " " + track.getLength() + "\n";
+        }
+        return s;
+    }
 }
