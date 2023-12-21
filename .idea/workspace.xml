@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39eba1c3-451f-4c0b-8617-b5cdb4b23fe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/AimsProject/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/AimsProject/AimsProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/GUIProject/GUIProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/GUIProject/GUIProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04/OtherProjects/OtherProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04/OtherProjects/OtherProjects.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +47,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release/lab04",
-    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab04",
+    "git-widget-placeholder": "testlab05",
+    "last_opened_file_path": "C:/Users/LE CAO PHONG/IdeaProjects/OOLT.VN.20231-20215113.LeCaoPhong/Lab05/GUIProject",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -62,14 +59,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LE CAO PHONG\IdeaProjects\OOLT.VN.20231-20215113.LeCaoPhong" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="OOLT.VN.20231-20215113.LeCaoPhong" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
