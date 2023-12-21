@@ -3,62 +3,82 @@ import java.util.ArrayList;
 import hust.soict.hedspi.aims.media.Media;
 
 public class Store {
-    public static final int MAX_NUMBERS_DVD = 100;
-    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
-    // 	Add Media to Store
-    public void addMedia(Media m) {
-        int size = itemsInStore.size();
-        if(size != 100) {
-            itemsInStore.add(m);
-            System.out.println("The media has been added");
+    private int totalMedia = 0;
+    ArrayList<Media> itemsInStore = new ArrayList<Media>();
+    public void addMedia(Media media) {
+        if (itemsInStore.contains(media)) {
+            System.out.println("Media " + media.getTitle() + " has been added");
         }
-        else {
-            System.out.println("The store is almost full");
+        else
+        {
+            itemsInStore.add(media);
+            totalMedia++;
+            media.setId(totalMedia);
+            System.out.println("Media " + media.getTitle() + " is added successfully");
         }
     }
-    //	Remove Media to Store
-    public void removeMedia(Media m) {
-        for(Media media: itemsInStore) {
-            if(media.getTitle() == m.getTitle()) {
-                itemsInStore.remove(m);
-                System.out.println("The disc has been removed");
-            }
+    public void removeMedia(Media media) {
+        int index = itemsInStore.indexOf(media);
+        if (index != -1) {
+            itemsInStore.remove(index);
+            System.out.println("Media" + media.getTitle() + " has been deleted");
         }
+        else System.out.println("Media " + media.getTitle() + " not found");
     }
 
-    public boolean search(int id) {
-        for(Media m: itemsInStore) {
-            if(m.getId() == id) {
-                return true;
+    public Media searchTitle(String title) {
+        for (Media media : itemsInStore) {
+            if (media.getTitle().equals(title)) {
+                return media;
             }
         }
-        return false;
+        return null;
     }
-    // Search by Title
-    public boolean search(String title) {
-        for(Media m: itemsInStore) {
-            if(m.getTitle() == title) {
-                return true;
-            }
-        }
-        return false;
-    }
-    public void printStore() {
-        System.out.println("***********************STORE***********************");
-        int i = 1;
-        for(Media m: itemsInStore) {
-            System.out.println((i) + ".DVD - " + m.getTitle() + " - " +
-                    m.getCategory() + " - " +
-                    m.getTitle() + " - " +
-//					m.getDirector() + " - " +
-//					m.getLength() + " : " +
-                    m.getCost());
-            i++;
-        }
-        System.out.println("***************************************************");
-    }
-    public ArrayList<Media> getItemsInStore() {
-        // TODO Auto-generated method stub
+
+    public ArrayList<Media> getItemsInStore(){
         return itemsInStore;
     }
+    public static void showMenu() {
+        System.out.println("AIMS");
+        System.out.println("---------------------------------------");
+        System.out.println("1. View store");
+        System.out.println("2. Update store");
+        System.out.println("3. See current cart");
+        System.out.println("0. Exit");
+        System.out.println("---------------------------------------");
+        System.out.println("Please choose a number: 0-1-2-3");
+    }
+    public static void storeMenu() {
+        System.out.println("Options");
+        System.out.println("------------------------");
+        System.out.println("1. See a media's details");
+        System.out.println("2. Add a media to cart");
+        System.out.println("3. Play a media");
+        System.out.println("4. See current cart");
+        System.out.println("0. Back");
+        System.out.println("---------------------------------");
+        System.out.println("Please choose a number : 0-1-2-3-4");
+    }
+    public static void mediaDetailsMenu() {
+        System.out.println("Options");
+        System.out.println("----------------------------");
+        System.out.println("1. Add to cart");
+        System.out.println("2. Play");
+        System.out.println("0. Back");
+        System.out.println("---------------------------------");
+        System.out.println("Please choose a number : 0-1-2");
+    }
+    public static void cartMenu() {
+        System.out.println("Options");
+        System.out.println("---------------------------");
+        System.out.println("1. Filter media in cart");
+        System.out.println("2. Sort media in cart");
+        System.out.println("3. Remove media from cart");
+        System.out.println("4. Play a media");
+        System.out.println("5. Place order");
+        System.out.println("0. Back");
+        System.out.println("-------------------------");
+        System.out.println("Please choose a number 0-1-2-3-4-5");
+    }
+
 }

@@ -2,6 +2,7 @@ package hust.soict.hedspi.aims.media;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import hust.soict.hedspi.aims.exception.PlayerException;
 public class CompactDisc extends Disc {
     String artist;
     List<Track> tracks = new ArrayList<Track>();
@@ -53,15 +54,38 @@ public class CompactDisc extends Disc {
         }
         return total_length;
     }
-    public String play() {
+    public String play() throws PlayerException {
         // TODO Auto-generated method stub
-        return printAllTracks();
+        if (this.getLength() > 0) {
+            String s = "";
+            for (Track track : tracks) {
+                s += track.play();
+            }
+            java.util.Iterator iter = tracks.iterator();
+            Track nextTrack;
+            while (iter.hasNext()) {
+                nextTrack = (Track) iter.next();
+                try {
+                    nextTrack.play();
+                } catch (PlayerException e) {
+                    throw e;
+                }
+            }
+            return s;
+        } else {
+            throw new PlayerException("ERROR : CD length is non-positive");
+        }
+
     }
+
     public String printAllTracks() {
         String s = "";
         for (Track track : tracks) {
             s += track.getTitle() + " " + track.getLength() + "\n";
         }
         return s;
+    }
+    public String toString() {
+        return super.tostring() + " - " + this.artist;
     }
 }
